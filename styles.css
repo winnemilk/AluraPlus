@@ -1,0 +1,164 @@
+:root {
+    --white-title: #fff;
+    --grey-span: #c0c0c0;
+    --blue-botton: #167bf7;
+    --black-background: #00030c;
+    --fonte-principal: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: var(--black-background);
+    color: var(--white-title);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__titulo {
+    margin: 2%;
+}
+
+.container__botao {
+    background-color: var(--blue-botton);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--white-title);
+    display: block; 
+    text-decoration: none;
+    margin: 1em;  
+}
+
+.container__botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--white-title);
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 1em;
+    color: var(--white-title);
+}
+
+.container__aviso {
+    font-size: 0.75rem;
+    color: var(--grey-span);
+}
+
+.container__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container_imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+    
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--white-title);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--grey-span);
+    margin-right: 4.3125em ;
+}
+
+.secundario__botao {
+    display: inline-block;
+    background-color: var(--blue-botton);
+    border-radius: 5px;
+    color: var(--white-title);
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    
+      
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2.5rem;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 3rem;
+    color: var(--white-title);
+}
+
+.lista__item {
+    font-size: 2rem;
+    color: var(--white-title);       
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;    
+}
+
+.lista__link {
+   color: var(--white-title);
+   margin-left: 1em;   
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--grey-span);
+    font-size: 0.875rem;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo {
+    margin-bottom: 10px;
+}
